@@ -8,7 +8,9 @@
 *.o
 *.so
 
-# idea files
+#idea files
+############
+target
 .idea
 *.iml
 

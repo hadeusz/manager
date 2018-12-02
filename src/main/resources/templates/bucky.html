@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Spring Boot ajax example</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <link rel="stylesheet" type="text/css" href="/css/bucky.css"/>
+    <!--<link rel="stylesheet" type="text/css"-->
+          <!--href="webjars/bootstrap/3.3.7/css/bootstrap.min.css"/>-->
+    <script src="webjars/jquery/2.2.4/jquery.min.js"></script>
+    <script type="text/javascript" src="/js/drag_actions.js"></script>
+</head>
+<body>
+
+    <div id="mydiv" draggable="true" name="agecriteria">
+        <div id="mydivheader">Click here to move</div>
+        <form>
+            <p>Age from:
+                <input type="number" size="4" name="age" min="18" max="99" value="21"/>
+            </p>
+            <p>Age to:
+                <input type="number" size="4" name="age" min="18" max="99" value="21"/>
+            </p>
+        </form>
+    </div>
+
+    <div id="thebox" >
+        Put that here
+    </div>
+
+    <div id="feedback"></div>
+</body>
+</html>
